@@ -1,0 +1,34 @@
+希露菲桌宠 · 分享包
+====================
+
+白毛 Q 版希露菲（无职转生），给 DSH 桌面版用的桌宠。
+会呼吸、会溜达、点她会说话、右键有动作菜单。
+
+【最简单的安装方式】
+双击本文件夹里的「一键安装.bat」，按提示走完，重启 DSH 即可。
+
+注意：双击前，你的电脑里必须已经装好 dsh-pet 插件。
+如果不知道有没有，直接双击安装脚本，它会告诉你缺什么。
+
+【手动安装（不想用脚本的话）】
+1. 装插件：PowerShell 执行
+     dsh plugin --profile desktop add dsh-pet
+2. 把 pet 文件夹里的 sylphie-config.jsonc 和 sylphie-animation 整个文件夹
+   复制到：
+     %USERPROFILE%\.dsh\dsh-pet\pet\
+3. 把 补丁-可选 里的 sprite.js、main.js 覆盖到：
+     %USERPROFILE%\.dsh\profiles\desktop\node_modules\dsh-pet\runtime\electron-helper\
+   （这一步是让点击能说话，不装也能用）
+4. 重启 DSH。
+
+【想换个大小 / 改台词】
+改 sylphie-config.jsonc：
+  - "size": 280        数字越大越大
+  - "whisperPrompt"    她说话的性格和语气
+  - "whisperImageEnabled": false   要不要配表情图
+
+【卸载】
+删掉 %USERPROFILE%\.dsh\dsh-pet\pet\ 下的
+  sylphie-config.jsonc 和 sylphie-animation\ 即可。
+
+素材来源：petdex.dev 的 Sylphiette Q 版精灵图（免费分享）。
