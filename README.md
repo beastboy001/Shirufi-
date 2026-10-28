@@ -26,9 +26,11 @@
    dsh plugin --profile desktop add dsh-pet
    ```
 
-2. 下载本仓库 [Releases](../../releases) 里的 `希露菲桌宠-分享包.zip`，解压
+2. 下载 📦 **[希露菲桌宠-分享包.zip](https://github.com/beastboy001/Shirufi-/releases/download/v1.0/sylphie-desktop-pet-v1.0.zip)**（6.1 MB），解压
 3. 双击 **一键安装.bat**，跟着提示走
 4. 重启 DSH → 右下角出现白发小姑娘 ✅
+
+> 也可以直接用本仓库里的 `pet/` 文件夹手动安装，见方式二。
 
 ### 方式二：手动安装
 
